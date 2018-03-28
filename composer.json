@@ -1,0 +1,24 @@
+{
+    "name": "bjmmartin/CakePHP2-faker",
+    "type": "library",
+    "description": "Add faker ORM extension for CakePHP2",
+    "keywords": ["faker", "orm", "cakephp"],
+    "authors": [
+        {
+            "name": "Benjamin Martin"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "fzaninotto/faker": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7",
+        "squizlabs/php_codesniffer": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faker\\ORM\\CakePHP2\\": "src/"
+        }
+    }
+}
